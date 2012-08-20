@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutAuthorText" xml:space="preserve">
+    <value>Beijing, China
+Designer: Sun Jinbo
+Email: sunjinbo@hotmail.com</value>
+  </data>
+  <data name="AboutBlackboxText" xml:space="preserve">
+    <value>About Black-box™</value>
+  </data>
+  <data name="AboutContentText" xml:space="preserve">
+    <value>Black-box™ for Windows Phone 7
+Version 01.01.00
+Copyright © 2011-2012 by Panda Work Studio
+All rights reserved.</value>
+  </data>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AllAtOnceText" xml:space="preserve">
+    <value>All at once</value>
+  </data>
+  <data name="AllAtTimeText" xml:space="preserve">
+    <value>All at a time</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>BLACK-BOX™</value>
+  </data>
+  <data name="ChallengeText" xml:space="preserve">
+    <value>Challenge</value>
+  </data>
+  <data name="ComplexHitHelpItemDetailsText" xml:space="preserve">
+    <value>The above ray gets deflected by the first mirror, then by the second mirror, and then hits the third mirror, yielding a hit; we called it a "Complex hit".</value>
+  </data>
+  <data name="ComplexHitHelpItemTitleText" xml:space="preserve">
+    <value>Complex hit</value>
+  </data>
+  <data name="ComplexSampleHelpItemDetailsText" xml:space="preserve">
+    <value>Reflections and hits can be more complex, too.</value>
+  </data>
+  <data name="ComplexSampleHelpItemTitleText" xml:space="preserve">
+    <value>Complex sample</value>
+  </data>
+  <data name="DebunkApplicationBarText" xml:space="preserve">
+    <value>debunk</value>
+  </data>
+  <data name="DeflectionHelpItemDetailsText" xml:space="preserve">
+    <value>The interaction resulting from a ray which does not actually hit a mirror, but which passes directly to one side of the mirror is called a "deflection". The angle of deflection for this ray/mirror interaction is 90 degrees.</value>
+  </data>
+  <data name="DeflectionHelpItemTitleText" xml:space="preserve">
+    <value>Deflection</value>
+  </data>
+  <data name="DetourHelpItemDetailsText" xml:space="preserve">
+    <value>Rays that don't result in hits or reflections are called "detours". These may be single or multiple deflections, or misses. A detour has an entry and an exit location, while hits and reflections only have an entry location for a hit, and a single entry/exit location for a reflection.</value>
+  </data>
+  <data name="DetourHelpItemTitleText" xml:space="preserve">
+    <value>Detour</value>
+  </data>
+  <data name="DifficultyTitle" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="DoubleDeflectionHelpItemDetailsText" xml:space="preserve">
+    <value>The other circumstance leading to a reflection is when two deflections cancel out. Rays that goes between two mirrors placed at the distance of one grid from each other will be turned around - deflected by 180 degrees.</value>
+  </data>
+  <data name="DoubleDeflectionHelpItemTitleText" xml:space="preserve">
+    <value>Double deflection</value>
+  </data>
+  <data name="EasyText" xml:space="preserve">
+    <value>Easy</value>
+  </data>
+  <data name="GameOverPrompt1Text" xml:space="preserve">
+    <value>Congratulations, my friend, you won!</value>
+  </data>
+  <data name="GameOverPrompt2Text" xml:space="preserve">
+    <value>You guessed all hidden mirrors,  amazing!</value>
+  </data>
+  <data name="GameOverPrompt3Text" xml:space="preserve">
+    <value>Game over, would you want a rematch?</value>
+  </data>
+  <data name="GameOverPrompt4Text" xml:space="preserve">
+    <value>Looks like you win after all, congratulations.</value>
+  </data>
+  <data name="GameOverPrompt5Text" xml:space="preserve">
+    <value>OK, you win.</value>
+  </data>
+  <data name="GamePageTitle" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="GuessApplicationBarText" xml:space="preserve">
+    <value>guess</value>
+  </data>
+  <data name="GuessFailedPrompt1Text" xml:space="preserve">
+    <value>Don't worry about it.</value>
+  </data>
+  <data name="GuessFailedPrompt2Text" xml:space="preserve">
+    <value>Never lose heart, be patient.</value>
+  </data>
+  <data name="GuessFailedPrompt3Text" xml:space="preserve">
+    <value>Think much, and then guess.</value>
+  </data>
+  <data name="GuessFailedPrompt4Text" xml:space="preserve">
+    <value>Don't lose heart, try again.</value>
+  </data>
+  <data name="GuessFailedPrompt5Text" xml:space="preserve">
+    <value>Keep your chin up.</value>
+  </data>
+  <data name="GuessSuccessPrompt1Text" xml:space="preserve">
+    <value>Wonderful, good job for you!</value>
+  </data>
+  <data name="GuessSuccessPrompt2Text" xml:space="preserve">
+    <value>Well done, you guessed right.</value>
+  </data>
+  <data name="GuessSuccessPrompt3Text" xml:space="preserve">
+    <value>You made a great guess, how nice!</value>
+  </data>
+  <data name="GuessSuccessPrompt4Text" xml:space="preserve">
+    <value>I don't know how you do it, awesome!</value>
+  </data>
+  <data name="GuessSuccessPrompt5Text" xml:space="preserve">
+    <value>Keep going untill you win.</value>
+  </data>
+  <data name="GuessTypeTitle" xml:space="preserve">
+    <value>Guess type</value>
+  </data>
+  <data name="HelpApplicationBarText" xml:space="preserve">
+    <value>help</value>
+  </data>
+  <data name="HelpPageTitle" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HitHelpItemDetailsText" xml:space="preserve">
+    <value>A ray which hits a mirror will be absorbed (it will not come outside the box).</value>
+  </data>
+  <data name="HitHelpItemTitleText" xml:space="preserve">
+    <value>Hit</value>
+  </data>
+  <data name="IntroductionHelpItemDetailsText" xml:space="preserve">
+    <value>Black-box™ is a game of "hide and seek", which simulates shooting rays into a black box to deduce the locations of mirrors hidden inside. It was created by Eric Solomon in 1970s. Currently it has numerous computer implementations for many different platforms, perhaps this one is the first on Windows Phone platform,  hope you like it.</value>
+  </data>
+  <data name="IntroductionHelpItemTitleText" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="LayoutHelpItemDetailsText" xml:space="preserve">
+    <value>The most common configuration for novice players is four mirrors in an 8-by-8 grid. The above is a sample black-box in this configuration.
+There are 32 input positions in an 8-by-8 grid, eight each at the top, bottom, right, and left. A beam is fired into one of these positions and the result is used to help deduce the location of a known number of hidden mirrors.</value>
+  </data>
+  <data name="LayoutHelpItemTitleText" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="MaxRaysExceedPromptText" xml:space="preserve">
+    <value>You have no more rays to shoot!</value>
+  </data>
+  <data name="MirrorNumberTitle" xml:space="preserve">
+    <value>Number of mirrors</value>
+  </data>
+  <data name="MissHelpItemDetailsText" xml:space="preserve">
+    <value>A ray which doesn't come across with any mirror will go straight through the box.</value>
+  </data>
+  <data name="MissHelpItemTitleText" xml:space="preserve">
+    <value>Miss</value>
+  </data>
+  <data name="NextApplicationBarText" xml:space="preserve">
+    <value>next</value>
+  </data>
+  <data name="NoRayExploredPromptText" xml:space="preserve">
+    <value>You need to shoot a ray first!</value>
+  </data>
+  <data name="OffText" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="OkApplicationBarText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="OnText" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="PreviousApplicationBarText" xml:space="preserve">
+    <value>previous</value>
+  </data>
+  <data name="ReflectionHelpItemDetailsText" xml:space="preserve">
+    <value>The final type of interaction of a ray with an atom is a "reflection". This occurs in two circumstances. If a mirror is at the edge of the grid, any ray which is aimed into the grid directly beside it causes a reflection.</value>
+  </data>
+  <data name="ReflectionHelpItemTitleText" xml:space="preserve">
+    <value>Reflection</value>
+  </data>
+  <data name="RestartApplicationBarText" xml:space="preserve">
+    <value>restart</value>
+  </data>
+  <data name="SettingsApplicationBarText" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SoundTitle" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>Let's get started!</value>
+  </data>
+  <data name="TargetHelpItemDetailsText" xml:space="preserve">
+    <value>In the game, 3 to 5 mirrors (depending on how many you choose when starting the game) are hidden in an 8-by-8 grid. You supply inputs in the form of "rays" that you "shoot" into the sides of the grid. Because these rays behave according to deterministic rules when in the vicinity of a mirror within the grid, you can deduce the locations of the mirrors given their observed behavior. The object of the game is to accurately guess the location of the hidden mirrors using the least amount of information.</value>
+  </data>
+  <data name="TargetHelpItemTitleText" xml:space="preserve">
+    <value>Object of the game</value>
+  </data>
+  <data name="TwistHelpItemDetailsText" xml:space="preserve">
+    <value>Watch out! Ray could be deflected by several mirrors. Some rays travel a twisted course, like the above ray.</value>
+  </data>
+  <data name="TwistHelpItemTitleText" xml:space="preserve">
+    <value>Twist</value>
+  </data>
+  <data name="UnlimitedRaysTitle" xml:space="preserve">
+    <value>Allow unlimited rays</value>
+  </data>
+  <data name="VibrateTitle" xml:space="preserve">
+    <value>Vibrate</value>
+  </data>
+  <data name="WelcomeAddressText" xml:space="preserve">
+    <value>The purpose of the game is to use deductive reasoning to determine the location of 3 to 5 'mirrors' placed unseen within an 8-by-8 grid. For more information, please refer to the Help.</value>
+  </data>
+  <data name="WelcomePageTitle" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+</root>

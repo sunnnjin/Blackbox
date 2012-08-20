@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbouBlackboxText" xml:space="preserve">
+    <value>關於黑盒子™</value>
+  </data>
+  <data name="AboutAuthorText" xml:space="preserve">
+    <value>中國 北京
+設計者: 孫金波
+郵箱：sunjinbo@hotmail.com</value>
+  </data>
+  <data name="AboutContentText" xml:space="preserve">
+    <value>黑盒子™ Windows Phone版
+版本 01.01.00
+版權所有 © 2011-2012 熊貓工作室
+保留所有權利。</value>
+  </data>
+  <data name="AboutPageTitle" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="AllAtOnceText" xml:space="preserve">
+    <value>一起猜</value>
+  </data>
+  <data name="AllAtTimeText" xml:space="preserve">
+    <value>一個個猜</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>黑盒子™</value>
+  </data>
+  <data name="ChallengeText" xml:space="preserve">
+    <value>困難</value>
+  </data>
+  <data name="ComplexHitHelpItemDetailsText" xml:space="preserve">
+    <value>上圖中的鐳射被第一面鏡子折射到第二面鏡子上，經過再次折射，最終擊中第三面鏡子，產生一個撞擊，我們稱這是一個“複雜撞擊”。</value>
+  </data>
+  <data name="ComplexHitHelpItemTitleText" xml:space="preserve">
+    <value>複雜撞擊</value>
+  </data>
+  <data name="ComplexSampleHelpItemDetailsText" xml:space="preserve">
+    <value>折射、撓曲和撞擊的情況可能會異常地複雜。</value>
+  </data>
+  <data name="ComplexSampleHelpItemTitleText" xml:space="preserve">
+    <value>複雜的示例</value>
+  </data>
+  <data name="DebunkApplicationBarText" xml:space="preserve">
+    <value>揭密</value>
+  </data>
+  <data name="DeflectionHelpItemDetailsText" xml:space="preserve">
+    <value>有時候鐳射並沒有從正面撞擊鏡子，而是從一側與鏡子呈90度夾角掠過，我們稱之為“撓曲”。</value>
+  </data>
+  <data name="DeflectionHelpItemTitleText" xml:space="preserve">
+    <value>撓曲</value>
+  </data>
+  <data name="DetourHelpItemDetailsText" xml:space="preserve">
+    <value>鐳射可能通過多次的撓曲，繞過2個以上的鏡子穿出黑盒子，產生一個入口和出口，通常情況比較複雜，我們稱之為“繞道”。</value>
+  </data>
+  <data name="DetourHelpItemTitleText" xml:space="preserve">
+    <value>繞道</value>
+  </data>
+  <data name="DifficultyTitle" xml:space="preserve">
+    <value>遊戲難度</value>
+  </data>
+  <data name="DoubleDeflectionHelpItemDetailsText" xml:space="preserve">
+    <value>一個特殊的情況是，當同時發生兩個撓曲時，相互抵消，會產生一個“雙反射”。如上圖所示，鐳射穿入到兩個鏡子之間，經過180度的反射，從入口點又返回回來。</value>
+  </data>
+  <data name="DoubleDeflectionHelpItemTitleText" xml:space="preserve">
+    <value>雙反射</value>
+  </data>
+  <data name="EasyText" xml:space="preserve">
+    <value>簡單</value>
+  </data>
+  <data name="GameOverPrompt1Text" xml:space="preserve">
+    <value>恭喜你，我的朋友，你贏了！</value>
+  </data>
+  <data name="GameOverPrompt2Text" xml:space="preserve">
+    <value>你猜中了所有的鏡子，真棒啊！</value>
+  </data>
+  <data name="GameOverPrompt3Text" xml:space="preserve">
+    <value>遊戲結束，想再玩一局嗎？</value>
+  </data>
+  <data name="GameOverPrompt4Text" xml:space="preserve">
+    <value>看起來你是贏了，恭喜下先！</value>
+  </data>
+  <data name="GameOverPrompt5Text" xml:space="preserve">
+    <value>不錯，你都猜對了！</value>
+  </data>
+  <data name="GamePageTitle" xml:space="preserve">
+    <value>遊戲</value>
+  </data>
+  <data name="GuessApplicationBarText" xml:space="preserve">
+    <value>猜</value>
+  </data>
+  <data name="GuessFailedPrompt1Text" xml:space="preserve">
+    <value>不要擔心，還有機會！</value>
+  </data>
+  <data name="GuessFailedPrompt2Text" xml:space="preserve">
+    <value>不要著急，冷靜下。</value>
+  </data>
+  <data name="GuessFailedPrompt3Text" xml:space="preserve">
+    <value>猜之前多想想。</value>
+  </data>
+  <data name="GuessFailedPrompt4Text" xml:space="preserve">
+    <value>不要灰心，再試一下。</value>
+  </data>
+  <data name="GuessFailedPrompt5Text" xml:space="preserve">
+    <value>別氣餒，加油！</value>
+  </data>
+  <data name="GuessSuccessPrompt1Text" xml:space="preserve">
+    <value>太棒了，幹得不錯！</value>
+  </data>
+  <data name="GuessSuccessPrompt2Text" xml:space="preserve">
+    <value>幹得真好，你猜對了。</value>
+  </data>
+  <data name="GuessSuccessPrompt3Text" xml:space="preserve">
+    <value>猜對了，嘉獎下！</value>
+  </data>
+  <data name="GuessSuccessPrompt4Text" xml:space="preserve">
+    <value>真不知道你是如何猜對的，好厲害啊！</value>
+  </data>
+  <data name="GuessSuccessPrompt5Text" xml:space="preserve">
+    <value>加油，很快你就贏了！</value>
+  </data>
+  <data name="GuessTypeTitle" xml:space="preserve">
+    <value>猜測方式</value>
+  </data>
+  <data name="HelpApplicationBarText" xml:space="preserve">
+    <value>幫助</value>
+  </data>
+  <data name="HelpPageTitle" xml:space="preserve">
+    <value>幫助</value>
+  </data>
+  <data name="HitHelpItemDetailsText" xml:space="preserve">
+    <value>鐳射正面碰到鏡子將被吸收（它將不會穿出黑盒子）。</value>
+  </data>
+  <data name="HitHelpItemTitleText" xml:space="preserve">
+    <value>撞擊</value>
+  </data>
+  <data name="IntroductionHelpItemDetailsText" xml:space="preserve">
+    <value>黑盒子™是一款捉迷藏遊戲，由埃裏克.所羅門於70年代設計。通過往黑盒子裏發射鐳射，來確定隱藏在內部反光鏡的位置，直到全部找出它們為止。當前在不同的平臺上有很多實現，本版本可能是第一款運行在Windows Phone平臺上的實現，希望您能喜歡。</value>
+  </data>
+  <data name="IntroductionHelpItemTitleText" xml:space="preserve">
+    <value>介紹</value>
+  </data>
+  <data name="LayoutHelpItemDetailsText" xml:space="preserve">
+    <value>對於初學者來說，通常的玩法是在8x8的格子裏放置4個鏡子，如上圖所示。
+在8x8的格子上有32個輸入位置，在上下左右四個方向各8個。在這些位置向盒子裏發射鐳射，然後根據反射結果來逐步確定隱藏鏡子的位置。</value>
+  </data>
+  <data name="LayoutHelpItemTitleText" xml:space="preserve">
+    <value>佈局</value>
+  </data>
+  <data name="MaxRaysExceedPromptText" xml:space="preserve">
+    <value>你已經沒有多餘的鐳射可以發射了。</value>
+  </data>
+  <data name="MirrorNumberTitle" xml:space="preserve">
+    <value>反射鏡數目</value>
+  </data>
+  <data name="MissHelpItemDetailsText" xml:space="preserve">
+    <value>沒有接觸任何鏡子的鐳射會直接穿出盒子。</value>
+  </data>
+  <data name="MissHelpItemTitleText" xml:space="preserve">
+    <value>漏過</value>
+  </data>
+  <data name="NextApplicationBarText" xml:space="preserve">
+    <value>下一頁</value>
+  </data>
+  <data name="NoRayExploredPromptText" xml:space="preserve">
+    <value>你需要先發射一個鐳射。</value>
+  </data>
+  <data name="OffText" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="OkApplicationBarText" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="OnText" xml:space="preserve">
+    <value>打開</value>
+  </data>
+  <data name="PreviousApplicationBarText" xml:space="preserve">
+    <value>上一頁</value>
+  </data>
+  <data name="ReflectionHelpItemDetailsText" xml:space="preserve">
+    <value>這是一種特殊的情況，當鏡子在盒子的邊緣時（如上圖所示），若發射源在鏡子的內部，鐳射將被直接吸收。</value>
+  </data>
+  <data name="ReflectionHelpItemTitleText" xml:space="preserve">
+    <value>反射</value>
+  </data>
+  <data name="RestartApplicationBarText" xml:space="preserve">
+    <value>重玩</value>
+  </data>
+  <data name="SettingsApplicationBarText" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="SoundTitle" xml:space="preserve">
+    <value>音效</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>讓我們開始吧！</value>
+  </data>
+  <data name="TargetHelpItemDetailsText" xml:space="preserve">
+    <value>在遊戲中，3至5個鏡子（依賴於您的設置）隱藏在8x8的格子裏，遊戲的目標是精確地找出這些隱藏的鏡子。</value>
+  </data>
+  <data name="TargetHelpItemTitleText" xml:space="preserve">
+    <value>遊戲的目標</value>
+  </data>
+  <data name="TwistHelpItemDetailsText" xml:space="preserve">
+    <value>小心啊！有些鐳射可能被鏡子發射很多次，就像上面的鐳射那樣。</value>
+  </data>
+  <data name="TwistHelpItemTitleText" xml:space="preserve">
+    <value>扭曲</value>
+  </data>
+  <data name="UnlimitedRaysTitle" xml:space="preserve">
+    <value>允許無限制發射鐳射</value>
+  </data>
+  <data name="VibrateTitle" xml:space="preserve">
+    <value>震動效果</value>
+  </data>
+  <data name="WelcomeAddressText" xml:space="preserve">
+    <value>歡迎您來到黑盒子的世界！黑盒子裏面隱藏著3至5個鏡子，您需要通過發射一些雷射光束，經過推測，將它們給找出來！如果您有什麼疑問，請參考幫助來獲取更多地資訊吧！</value>
+  </data>
+  <data name="WelcomePageTitle" xml:space="preserve">
+    <value>歡迎</value>
+  </data>
+</root>
